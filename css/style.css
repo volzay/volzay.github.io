@@ -34,6 +34,7 @@ header {
 	text-decoration: none;
 	box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
 	border-radius: 50px;
+	border: none;
 	background-color: #ffffff;
 	color: #072b6f;
 	font-size: 18px;
@@ -86,11 +87,20 @@ header small {
 .portfolio-title, .portfolio-subtitle {
 	text-align: center;
 }
+.portfolio-col{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
 .portfolio-col-1 {
 	padding-left: 50px;
 }
 .portfolio-col-2 {
 	padding-right: 50px;
+}
+.portfolio-link {
+	font-size: 14px;
+	margin-top: auto;
 }
 .portfolio-block h3 {
 	color: #072b6f;
